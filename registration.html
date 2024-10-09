@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact & Registration</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Contact & Registration</h1>
+    </div>
+
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="myHoliday.html">My Holiday</a></li>
+                <li><a href="registration.html">Registration Form</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h1>Connect with Me</h1>
+            <p>Feel free to reach out via my social media profiles or check out some of my favorite websites:</p>
+
+            <h2>My Social Media</h2>
+            <ul class="social-media">
+                <li>
+                    <a href="https://www.facebook.com/rose.valencia.3532?mibextid=ZbWKwL" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/valenggln" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.youtube.com/@aaceilnv" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Logo">
+                    </a>
+                </li>
+            </ul>
+
+            <h2>Favorite Web</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank">freecodecamp</a></li>
+            </ul>
+
+            <h2>Educational Web</h2>
+            <ul>
+                <li><a href="https://fti.unai.edu" target="_blank">FTI UNAI</a></li>
+                <li><a href="https://unai.edu" target="_blank">UNAI</a></li>
+            </ul>
+
+            <h2>Field Trip Registration</h2>
+            <div class="registrationForm">
+                <form action="/submit_registration" method="POST">
+                    <div class="rForm-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="rForm-group">
+                        <label for="nim">NIM</label>
+                        <input type="text" id="nim" name="nim" required>
+                    </div>
+                    <div class="rForm-group">
+                        <label for="phone">No. HP</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="rForm-group">
+                        <label for="meal">No. Makan</label>
+                        <input type="number" id="meal" name="meal" required>
+                    </div>
+                    <button type="submit" class="btn-submit">Daftar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="aside">
+            <h2>Student</h2>
+            <p>Rose Valencia Siahaan</p>
+            <p>2382026</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Rose Valencia Siahaan. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
