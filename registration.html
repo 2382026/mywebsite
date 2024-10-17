@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Contact & Registration</title>
+    <link rel="icon" href="favicons.png" type="image">
+    <title>Registration Form</title>
 </head>
 <body>
     <div class="header">
@@ -22,58 +23,36 @@
         </div>
 
         <div class="main">
-            <h1>Connect with Me</h1>
-            <p>Feel free to reach out via my social media profiles or check out some of my favorite websites:</p>
-
-            <h2>My Social Media</h2>
-            <ul class="social-media">
-                <li>
-                    <a href="https://www.facebook.com/rose.valencia.3532?mibextid=ZbWKwL" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/valenggln" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.youtube.com/@aaceilnv" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Logo">
-                    </a>
-                </li>
-            </ul>
-
-            <h2>Favorite Web</h2>
-            <ul>
-                <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
-                <li><a href="https://www.freecodecamp.org/" target="_blank">freecodecamp</a></li>
-            </ul>
-
-            <h2>Educational Web</h2>
-            <ul>
-                <li><a href="https://fti.unai.edu" target="_blank">FTI UNAI</a></li>
-                <li><a href="https://unai.edu" target="_blank">UNAI</a></li>
-            </ul>
-
-            <h2>Field Trip Registration</h2>
+            <h2>Registration Form</h2>
             <div class="registrationForm">
                 <form action="/submit_registration" method="POST">
                     <div class="rForm-group">
-                        <label for="name">Name</label>
+                        <label for="name">Nama Lengkap</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="rForm-group">
-                        <label for="nim">NIM</label>
-                        <input type="text" id="nim" name="nim" required>
+                        <label for="birthdate">Tanggal Lahir</label>
+                        <input type="date" id="birthdate" name="birthdate" required>
                     </div>
                     <div class="rForm-group">
-                        <label for="phone">No. HP</label>
+                        <label for="phone">Nomor Telepon</label>
                         <input type="tel" id="phone" name="phone" required>
                     </div>
                     <div class="rForm-group">
-                        <label for="meal">No. Makan</label>
-                        <input type="number" id="meal" name="meal" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="rForm-group">
+                        <label for="address">Alamat</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="rForm-group">
+                        <label for="city">Kota</label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <div class="rForm-group">
+                        <label for="postal-code">Kode Pos</label>
+                        <input type="text" id="postal-code" name="postal-code" required>
                     </div>
                     <button type="submit" class="btn-submit">Daftar</button>
                 </form>
@@ -81,14 +60,30 @@
         </div>
 
         <div class="aside">
-            <h2>Student</h2>
-            <p>Rose Valencia Siahaan</p>
-            <p>2382026</p>
-        </div>
+            <h2>My Favorite</h2>
+            <div class="logo-container">
+        <a href="https://www.freecodecamp.org/" target="_blank">
+            <img src="freeCodeCamp.png" alt="freeCodeCamp Logo">
+        </a>
+        <a href="https://www.w3schools.com/" target="_blank">
+            <img src="w3schools.png" alt="W3Schools Logo">
+        </a>
+    </div>
 
-        <div class="footer">
-            <p>&copy; 2024 Rose Valencia Siahaan. All Rights Reserved.</p>
+            <h2>Education</h2>
+            <div class="logo-container">
+        <a href="https://fti.unai.edu/" target="_blank">
+            <img src="ftiunai.png">
+        </a>
+        <a href="https://unai.edu/" target="_blank">
+            <img src="unai.png">
+        </a>
+    </div>
         </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Rose Valencia Siahaan - All Rights Reserved.</p>
     </div>
 </body>
 </html>
